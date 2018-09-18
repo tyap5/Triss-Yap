@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<title>T.Y. Tennis Court</title>
+
+		<style>
+			* {
+				box-sizing: border-box;
+			}
+			
+			body {
+				margin:0px;
+			}
+			
+			div {
+				float:left;
+			}
+			
+			.box0 {
+				background-color: lavender;
+				width: 500px;
+				/*height: 325px;*/
+				padding: 1em;
+				position: absolute right;
+			}
+			
+			.box1 {
+				background-color: orange;
+				border: 5px solid white;
+				position: absolute top 100px;
+				width: 100px;
+				height: 100px;
+				z-index: 0;
+			}
+			
+			.box2 {
+				background-color: blue;
+				position: absolute;
+				width: 500px;
+				height: 85px;
+				border: 2px solid white;
+			}
+			
+			.box3 {
+				background-color: purple;
+				width: 350px;
+				height: 350px;
+				border: 3px solid white;
+			}
+			.container {
+				width: 700px;
+				/*height: 25px;*/
+			}
+
+			p {
+				position: relative;
+			}
+		</style>
+		
+	</head>
+	
+	<body>
+		
+		<div class="container">
+			<!-- top half-->
+			<div class="box1"></div>
+
+			<p>Tennis Court</p>
+			
+			<div class="box0">
+			
+				<div class="box2"></div>
+
+				<div class="box3"></div>
+
+				<div class="box3"></div>
+			
+			</div>
+			
+			<div class="box1"></div>
+			
+			<!--bottom half-->
+			<div class="box1"></div>
+			
+			<div class="box0">
+			
+				<div class="box3"></div>
+				
+				<div class="box3"></div>
+				
+				<div class="box2"></div>
+			
+			</div>
+			
+			<div class="box1"></div>
+			
+		</div>
+		
+	</body>
+
+</html>
