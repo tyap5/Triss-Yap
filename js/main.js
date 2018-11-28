@@ -1,6 +1,7 @@
-$(document) .ready(function() {
-	$('#btnFadeOut') .click(function() {
-			$('#box') .fadeOut('slow');
+$(document).ready(function() {
+	function interactions () {
+		$("h2") .click (function() {
+		$(this) .slideUp ();
 		});
-	});
-
+	}
+});

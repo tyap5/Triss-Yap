@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>JQuery Interaction</title>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 
@@ -19,10 +20,19 @@
 			font-size: 2.5em;
 			font-family: 'Open Sans Condensed', sans-serif;
 			margin-top: 100px;
+			cursor: pointer;
+		}
+
+		h2:hover {
+			background: blue;
 		}
 
 		img {
 			margin-top: -30px;
+		}
+
+		div.topic1 {
+			 
 		}
 
 		.Netherlands {
@@ -74,14 +84,6 @@
 		.topic5 {
 			margin-left: 625px;
 		}
-
-		#box {
-			background: grey;
-			width: 500px;
-			height: 90px;
-			padding: 40px;
-			text-align: center;
-		}
 	</style>
 </head>
 
@@ -89,19 +91,10 @@
 	<a href="../index.html">Home</a>
 
 	<h1>Travel</h1>
-
-	<div id="container">
-		<button id="btnFadeOut"> Fade Out</button>
-		<button id="btnFadeIn"> Fade In</button>
-		<button id="btnFadeTog"> Fade Toggle</button>
-
-		<hr>
-
-		<div id="box"><h1>Hello World</h1></div>
-	</div>
-
-	<h2 class="topic1">Netherlands</h2>
+	<div class="topic1">
+		<h2 class="topic1">Netherlands</h2>
 	<img class="Netherlands" src="ProjectImages/Netherlands.jpeg">
+	</div>
 
 	<h2 class="topic2">Cuba</h2>
 	<img class="Cuba" src="ProjectImages/Cuba.jpeg">
@@ -120,5 +113,11 @@
   crossorigin="anonymous"></script>
 
   	<script src="../js/main.js"></script>
+
+  	<script>
+  		$ ("h2").click(function() {
+  			$(this).slideDown();
+  		});
+  	</script>
 </body>
 </html>
