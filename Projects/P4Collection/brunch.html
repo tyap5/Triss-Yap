@@ -2,12 +2,502 @@
 <html>
 <head>
 	<title>Brunch</title>
+	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
 
 	<style>
 		html {
 			background: url(../ProjectImages/Brunch.jpeg) no-repeat center center;
 			background-size: cover;
 			height: 50%;
+		}
+
+		.main {
+			font-size: 4.5em;
+			margin-top: 140px;
+			margin-left: 220px;
+			font-family: 'Poiret One', cursive;
+		}
+
+		h1 {
+			color: white;
+		}
+
+		.FrenchToast {
+			margin-top: 260px;
+			width: 787px;
+			height: 960px;
+		}
+
+		.container1 {
+			position: relative;
+			text-align: left;
+			color: black;
+			margin-left: -10px;
+		}
+		.vanilla-almond {
+			position: absolute;
+			top: 290px;
+			left: 25px;
+			color: white;
+			font-size: 2.1em;
+			font-family: 'Poiret One', cursive;
+			width: 400px;
+		}
+
+		.subtopic1 {
+			margin-top: -980px;
+			margin-left: 960px;
+			font-family: 'Poiret One', cursive;
+		}
+
+		.list1 {
+			width: 400px;
+			line-height: 24px;
+			margin-top: -15px;
+			margin-left: 920px;
+			font-family: 'Playfair Display', serif;
+		}
+
+		.subtopic2 {
+			margin-top: 60px;
+			margin-left: 960px;
+			font-family: 'Poiret One', cursive;
+		}
+
+		.list2 {
+			width: 450px;
+			line-height: 24px;
+			margin-top: -15px;
+			margin-left: 920px;
+			font-family: 'Playfair Display', serif;
+		}
+
+		.container2 {
+			position: relative;
+			text-align: right;
+			color: black;
+			margin-right: -8px;
+			margin-top: 350px;
+		}
+
+		.spinach {
+			position: absolute;
+			top: 490px;
+			right: 150px;
+			color: white;
+			font-size: 3em;
+			width: 400px;
+			font-family: 'Poiret One', cursive;
+		}
+
+		.Spinach {
+			width: 840px;
+			height: 673px;
+		}
+
+		.subtopic3 {
+			margin-top: -680px;
+			margin-left: 140px;
+			font-family: 'Poiret One', cursive;
+		}
+
+		.list3 {
+			width: 450px;
+			line-height: 24px;
+			margin-top: -15px;
+			margin-left: 100px;
+			font-family: 'Playfair Display', serif;
+		}
+
+		.subtopic4 {
+			margin-top: 60px;
+			margin-left: 140px;
+			font-family: 'Poiret One', cursive;
+		}
+
+		.list4 {
+			width: 450px;
+			line-height: 24px;
+			font-family: 'Playfair Display', serif;
+			margin-top: -15px;
+			margin-left: 100px;
+		}
+
+		a {
+			color: white;
+		}
+
+		@media only screen and (max-width: 1440px) {
+			.main {
+				font-size: 4.5em;
+				margin-top: 140px;
+				margin-left: 220px;
+				font-family: 'Poiret One', cursive;
+			}
+
+			h1 {
+				color: white;
+			}
+
+			.FrenchToast {
+				margin-top: 260px;
+				width: 787px;
+				height: 960px;
+			}
+
+			.container1 {
+				position: relative;
+				text-align: left;
+				color: black;
+				margin-left: -10px;
+			}
+			.vanilla-almond {
+				position: absolute;
+				top: 290px;
+				left: 25px;
+				color: white;
+				font-size: 2.1em;
+				font-family: 'Poiret One', cursive;
+				width: 400px;
+			}
+
+			.subtopic1 {
+				margin-top: -980px;
+				margin-left: 960px;
+				font-family: 'Poiret One', cursive;
+			}
+
+			.list1 {
+				width: 400px;
+				line-height: 24px;
+				margin-top: -15px;
+				margin-left: 920px;
+				font-family: 'Playfair Display', serif;
+			}
+
+			.subtopic2 {
+				margin-top: 60px;
+				margin-left: 960px;
+				font-family: 'Poiret One', cursive;
+			}
+
+			.list2 {
+				width: 450px;
+				line-height: 24px;
+				margin-top: -15px;
+				margin-left: 920px;
+				font-family: 'Playfair Display', serif;
+			}
+
+			.container2 {
+				position: relative;
+				text-align: right;
+				color: black;
+				margin-right: -8px;
+				margin-top: 350px;
+			}
+
+			.spinach {
+				position: absolute;
+				top: 490px;
+				right: 150px;
+				color: white;
+				font-size: 3em;
+				width: 400px;
+				font-family: 'Poiret One', cursive;
+			}
+
+			.Spinach {
+				width: 840px;
+				height: 673px;
+			}
+
+			.subtopic3 {
+				margin-top: -680px;
+				margin-left: 140px;
+				font-family: 'Poiret One', cursive;
+			}
+
+			.list3 {
+				width: 450px;
+				line-height: 24px;
+				margin-top: -15px;
+				margin-left: 100px;
+				font-family: 'Playfair Display', serif;
+			}
+
+			.subtopic4 {
+				margin-top: 60px;
+				margin-left: 140px;
+				font-family: 'Poiret One', cursive;
+			}
+
+			.list4 {
+				width: 450px;
+				line-height: 24px;
+				font-family: 'Playfair Display', serif;
+				margin-top: -15px;
+				margin-left: 100px;
+			}
+		}
+
+		@media only screen and (max-width: 800px) {
+			.main {
+				font-size: 3em;
+				margin-top: 140px;
+				margin-left: 80px;
+				font-family: 'Poiret One', cursive;
+			}
+
+			h1 {
+				color: white;
+			}
+
+			.FrenchToast {
+				margin-top: 160px;
+				width: 807px;
+				height: 980px;
+			}
+
+			.container1 {
+				position: relative;
+				text-align: left;
+				color: black;
+				margin-left: -10px;
+			}
+			.vanilla-almond {
+				position: absolute;
+				top: 220px;
+				left: 10px;
+				color: white;
+				font-size: 2.3em;
+				font-family: 'Poiret One', cursive;
+				width: 400px;
+			}
+
+			.subtopic1 {
+				font-size: .8em;
+				position: absolute;
+				color: white;
+				margin-top: -750px;
+				margin-left: 70px;
+				font-family: 'Poiret One', cursive;
+			}
+
+			.list1 {
+				position: absolute;
+				color: white;
+				width: 400px;
+				line-height: 24px;
+				margin-top: -720px;
+				margin-left: 30px;
+				font-family: 'Playfair Display', serif;
+			}
+
+			.subtopic2 {
+				font-size: .8em;
+				position: absolute;
+				color: white;
+				margin-top: -670px;
+				margin-left: 410px;
+				font-family: 'Poiret One', cursive;
+			}
+
+			.list2 {
+				position: absolute;
+				color: white;
+				width: 350px;
+				line-height: 24px;
+				margin-top: -640px;
+				margin-left: 370px;
+				font-family: 'Playfair Display', serif;
+			}
+
+			.container2 {
+				position: relative;
+				text-align: right;
+				color: black;
+				margin-right: -8px;
+				margin-top: 60px;
+			}
+
+			.spinach {
+				position: absolute;
+				top: 460px;
+				right: 120px;
+				color: white;
+				font-size: 3em;
+				width: 400px;
+				font-family: 'Poiret One', cursive;
+			}
+
+			.Spinach {
+				width: 805px;
+				height: 638px;
+				margin-left: -8px;
+			}
+
+			.subtopic3 {
+				position: absolute;
+				font-size: .8em;
+				color: white;
+				margin-top: -450px;
+				margin-left: 30px;
+				font-family: 'Poiret One', cursive;
+			}
+
+			.list3 {
+				position: absolute;
+				color: white;
+				width: 300px;
+				line-height: 24px;
+				margin-top: -420px;
+				margin-left: -10px;
+				font-family: 'Playfair Display', serif;
+			}
+
+			.subtopic4 {
+				position: absolute;
+				color: white;
+				font-size: .8em;
+				margin-top: -650px;
+				margin-left: 350px;
+				font-family: 'Poiret One', cursive;
+			}
+
+			.list4 {
+				position: absolute;
+				color: white;
+				line-height: 24px;				
+				width: 450px;
+				font-family: 'Playfair Display', serif;
+				margin-top: -620px;
+				margin-left: 310px;
+			}
+		}
+
+		@media only screen and (max-width: 504px) {
+			.main {
+				font-size: 2em;
+				margin-top: 140px;
+				margin-left: 30px;
+				font-family: 'Poiret One', cursive;
+			}
+
+			h1 {
+				color: white;
+			}
+
+			.FrenchToast {
+				margin-top: 100px;
+				width: 527px;
+				height: 700px;
+			}
+
+			.container1 {
+				position: relative;
+				text-align: left;
+				color: black;
+				margin-left: -10px;
+			}
+			.vanilla-almond {
+				position: absolute;
+				top: 290px;
+				left: 25px;
+				color: white;
+				font-size: 1.5em;
+				font-family: 'Poiret One', cursive;
+				width: 400px;
+			}
+
+			.subtopic1 {
+				color: black;
+				margin-top: -10px;
+				margin-left: 70px;
+				font-family: 'Poiret One', cursive;
+			}
+
+			.list1 {
+				color: black;
+				width: 400px;
+				line-height: 24px;
+				margin-top: 20px;
+				margin-left: 30px;
+				font-family: 'Playfair Display', serif;
+			}
+
+			.subtopic2 {
+				color: black;
+				margin-top: 270px;
+				margin-left: 70px;
+				font-family: 'Poiret One', cursive;
+			}
+
+			.list2 {
+				color: black;
+				width: 450px;
+				line-height: 24px;
+				margin-top: 300px;
+				margin-left: 30px;
+				font-family: 'Playfair Display', serif;
+			}
+
+			.container2 {
+				position: relative;
+				text-align: right;
+				color: black;
+				margin-right: 58px;
+				margin-top: 350px;
+			}
+
+			.spinach {
+				position: absolute;
+				top: 610px;
+				right: 10px;
+				color: white;
+				font-size: 1.8em;
+				width: 400px;
+				font-family: 'Poiret One', cursive;
+			}
+
+			.Spinach {
+				margin-top: 350px;
+				width: 510px;
+				height: 360px;
+			}
+
+			.subtopic3 {
+				color: black;
+				margin-top: -10px;
+				margin-left: 70px;
+				font-family: 'Poiret One', cursive;
+			}
+
+			.list3 {
+				color: black;
+				width: 450px;
+				line-height: 24px;
+				margin-top: 20px;
+				margin-left: 30px;
+				font-family: 'Playfair Display', serif;
+			}
+
+			.subtopic4 {
+				color: black;
+				margin-top: 300px;
+				margin-left: 70px;
+				font-family: 'Poiret One', cursive;
+			}
+
+			.list4 {
+				color: black;
+				width: 450px;
+				line-height: 24px;
+				font-family: 'Playfair Display', serif;
+				margin-top: 330px;
+				margin-left: 30px;
+			}
 		}
 	</style>
 </head>
@@ -19,32 +509,51 @@
 
 	<a href="desserts.html">DESSERTS</a>	
 
-	<h1>brunch</h1>
+	<div class="main">
+		<h1>brunch</h1>
+	</div>
 
-	<h1>vanilla-almond spiced french toast</h1>
-		<h2>INGREDIENTS</h2>
-			<ul>
-				<li>2 cups whole milk</li>
-				<li>2 tbsp brown sugar</li>
-				<li>4 large eggs</li>
-				<li>1 tsp almond extract</li>
-				<li>1 tsp vanilla extract</li>
-				<li>1/2 tsp ground cinnamon</li>
-				<li>1/4 tsp ground nutmeg</li>
-				<li>1/8 tsp ground allspice</li>
-				<li>8 thick slices slightly stale toast</li>
-			</ul>
-		<h2>DIRECTIONS</h2>
-			<ol>
-				<li>Mix whole milk and brown sugar in a large bowl.</li>
-				<li>Beat eggs and vanilla extract, almond extract, cinnamon, nutmeg and allspice together in a separate bowl until the eggs are well beaten; add to the milk mixture and stir to dissolve the brown sugar.</li>
-				<li>Heat a nonstick skillet or griddle over medium-low heat.</li>
-				<li>Set 1 slice of toast into the milk mixture; let soak until moistened, about 10 seconds per side.</li>
-				<li>Cook the dipped toast in the preheated skillet until bottom is golden brown, 3-5 minutes; flip toast and coninue to cook until the other side is browned, 3-5 minutes more. Repeat dipping and cooking with remaining bread slices.</li>
-			</ol>
+	<div class="container1">
+		<img class="FrenchToast" src="../ProjectImages/FrenchToast.jpg">
+		<div class="vanilla-almond">vanilla-almond spiced french toast</div>
+	</div>
+		<div class="subtopic1">
+			<h2>INGREDIENTS</h2>
+		</div>
+			<div class="list1">
+				<ul>
+					<li>2 cups whole milk</li>
+					<li>2 tbsp brown sugar</li>
+					<li>4 large eggs</li>
+					<li>1 tsp almond extract</li>
+					<li>1 tsp vanilla extract</li>
+					<li>1/2 tsp ground cinnamon</li>
+					<li>1/4 tsp ground nutmeg</li>
+					<li>1/8 tsp ground allspice</li>
+					<li>8 thick slices slightly stale toast</li>
+				</ul>
+			</div>
+		<div class="subtopic2">	
+			<h2>DIRECTIONS</h2>
+		</div>
+			<div class="list2">
+				<ol>
+					<li>Mix whole milk and brown sugar in a large bowl.</li>
+					<li>Beat eggs and vanilla extract, almond extract, cinnamon, nutmeg and allspice together in a separate bowl until the eggs are well beaten; add to the milk mixture and stir to dissolve the brown sugar.</li>
+					<li>Heat a nonstick skillet or griddle over medium-low heat.</li>
+					<li>Set 1 slice of toast into the milk mixture; let soak until moistened, about 10 seconds per side.</li>
+					<li>Cook the dipped toast in the preheated skillet until bottom is golden brown, 3-5 minutes; flip toast and coninue to cook until the other side is browned, 3-5 minutes more. Repeat dipping and cooking with remaining bread slices.</li>
+				</ol>
+			</div>
 
-	<h1>spinach quiche</h1>
+	<div class="container2">
+		<img class="Spinach" src="../ProjectImages/Spinach.jpeg">
+		<div class="spinach">spinach quiche</div>
+	</div>
+	<div class="subtopic3">
 		<h2>INGREDIENTS</h2>
+	</div>
+		<div class="list3">
 			<ul>
 				<li>1/2 cup butter</li>
 				<li>3 cloves garlic, chopped</li>
@@ -57,12 +566,17 @@
 				<li>4 eggs, beaten</li>
 				<li>1 cup milk</li>
 			</ul>
+		</div>
+	<div class="subtopic4">
 		<h2>DIRECTIONS</h2>
+	</div>
+		<div class="list4">
 			<ol>
 				<li>Preheat oven to 375 degrees F (190 degrees C).</li>
 				<li>In a medium skillet, melt butter over medium heat. Saute garlic and onion in butter until lightly browned, about 7 minutes. Stir in spinach, mushrooms, feta and 1/2 cup cheddar cheese. Season with salt and pepper. Spoon mixuture into pie crust.</li>
 				<li>In a medium bowl, whist together eggs and milk. Season with salt and pepper. Pour into the pastry shell, allowing egg moisture to thoroughly combine with spinach mixture.</li>
 				<li>Bake in preheated oven for 15 minutes. Sprinkle top with remaining cheddar cheese, and bake an additional 35-40 minutes, until set in center.</li>
 			</ol>
+		</div>
 </body>
 </html>
